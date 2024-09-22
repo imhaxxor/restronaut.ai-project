@@ -1,0 +1,7 @@
+nav{
+    display: flex;
+    background-color: blueviolet;
+}
+nav ul li{
+    display: inline-block;
+}
