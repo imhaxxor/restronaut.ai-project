@@ -8,40 +8,84 @@
 <link rel="stylesheet" href="style.css">
 
 <body>
+    <script>
+        function subscribe(){
+            alert("Thank you for subscribing")
+        }
+    </script>
     
 
 <section class="main-1">
     <nav>
         <div class="nav-1">
-        <ul>
-            <li><a class="restobar">Restronaut</a></li>
-            <li><a class="getstar" id="button-1" href="#">Get Started</a></li>
-        </ul>
+            <ul>
+                <li><a class="restobar">Restronaut</a></li>
+                
+            </ul>
+            <ul>
+                    <li><a class="getstar" id="button-1" href="#">Get Started</a></li>
+            </ul>
 
         </div>
     </nav>
 </section>
 
 <section class="body-1">
-    <div>
-        <p style="color: beige;">Revolutionizing the Food Industry with Technology</p>
-        <p style="color: beige;">Welcome to Restronaut Technologies, where we provide innovative food-related services to businesses. Our cutting-edge solutions help you streamline operations, enhance customer experiences, and boost your bottom line.</p>
+    <div class="content">
+        <p id="rev-1">Revolutionizing the Food Industry with Technology</p>
+        <p id="welc-1">Welcome to Restronaut Technologies, where we provide innovative food-related services to businesses. Our cutting-edge solutions help you streamline operations, enhance customer experiences, and boost your bottom line.</p>
 
-        <button>Learn More</button>
-
-        <img src="mobiles.webp">
+        <button id="btnn">Learn More</button>
+    </div>
+    
+     
+    <div class="image">
+        <img id="img-mob" src="mobiles.webp">
     </div>
 
     <p style="text-align: center; color: aliceblue";>Trusted by the world's biggest brands</p><br>
 </section>
 
     <hr>
-    blah blah blah
+    <section class="img-0">
+        <span id="img-1">
+            <h1 style="color: white; font-family:monospace;">Restronaut</h1>
+            <img id="01" src="spacebox.webp"></img>
+            <img id="02" src="spicexx.webp"></img>
+            <img id="03" src="nallis.webp"></img>
+            <img id="04" src="colazon.webp"></img>
+        </span>   
+    </section> 
     <hr>
 
-<h1>Restronaut</h1>
+<section class="revo-1">
+    <div class="rev-2">
+        <h3 id="revolun">Revolutionize</h3>
+        <h2>Transforming the Food Industry with Innovative Solutions</h2>
+    </div>
+
+    <div class="revo-3">
+        <p>At Restronaut Technologies, we specialize in providing cutting-edge solutions to businesses in the food industry. Our services go beyond traditional offerings, as we leverage supply chain optimization, menu planning algorithms, and food safety compliance tools to help our clients stay ahead of the competition. With our innovative approach, we are revolutionizing the way food businesses operate, ensuring efficiency, profitability, and customer satisfaction.</p>
+    </div> 
+    <h2>Explore our Products</h2>
+</section>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+    <h1 style="color: white; font-family:monospace;">Restronaut</h1>
+
+
     <p>Join our newsletter to stay up to date on features and releases.</p>
-    <textarea>Enter your email</textarea><button>Subscribe</button>
+    <input id="email-1" type="email" placeholder="Enter your email"></input><button onclick="subscribe()" id="sub-btn">Subscribe</button>
     <p>By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company.</p>
 
 
@@ -54,4 +98,5 @@
 <br>
 <footer>© 2024 Restronaut Technologies. All rights reserved.</footer>
 </body>
+
 </html>
