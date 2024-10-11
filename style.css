@@ -4,13 +4,32 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 body{
     background-color: rgb(33, 6, 11);
+    font-family: "Inter", sans-serif;
+    /* font-family:"Inter", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+
 }
 
 .body-1{
     padding-top: 4rem;
     margin-left: 30px;
+}
+
+.parent{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+    .parent {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align items, optional */
+    }
 }
 
 
@@ -32,7 +51,6 @@ nav{
 
 #rev-1{
     font-size: 3rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: beige;
     margin-bottom: 3rem;
     width: 50%;
@@ -55,14 +73,14 @@ nav{
     display: flex;
     justify-content: flex-end;
     height: auto;
+    margin-top: 50px;
+    margin-right: 30px;
+    
     
     
 }
 
-#img-mob{
-    
 
-}
 
 nav a{
     padding: 14px 10px;
@@ -102,7 +120,7 @@ nav .getstar:hover{
     padding: 10px 20px;
     position: relative;
     top: 5px;
-    
+
 }
 
 
@@ -111,10 +129,14 @@ nav ul li{
     margin-right: 20px;
 }
 
-.img-1{
+.img-0{
+    margin: 50px 60px 50px 60px;
+
+}
+
+#img-1{
     justify-content: space-between;
-
-
+    display: flex;
 }
 
 .revo-1{
@@ -130,20 +152,275 @@ nav ul li{
     
 }
 
-.rev-2{
+.revo-1{
+    color: white;
+    font-family: monospace;
+    display: flex;
+}
 
+.rev-2{
+    font-size: 30px;
+    width: 2900px;
+}
+
+#at-1{
+    margin-left: 1px;
+    font-size: 14.5px;
+}
+
+
+
+#pro-1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+
+.our-1{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    
+    
+    
+    
+
+}
+
+.our-2{
+    justify-content: space-between;
+    
+    display: flex;
+    
+    
+
+}
+
+
+.productitem{
+    text-align: center;
+    
+}
+
+.productitem img{
+    text-align: center;
+    
+}
+
+.productitem p{
+    margin-top: 10px;
+}
+
+.key{
+    color: aliceblue;
+    margin-bottom: 60px;
+    
+    
+    
+}
+
+.key-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+
+}
+
+
+.keys{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 80px;
+    
+}
+
+#imgmatric{
+    margin-left: 40px;
+}
+
+#key-2{
+    border-left: 3px solid white;
+    
+
+}
+
+
+.key h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.faq{
+    color: white;
+    display: flex;
+    padding-left: 80px;
+    margin-top: 200px;
+    width: 97%;
+    
+}
+.faqs{
+    display: flex;
+    flex-direction: column; /* Use this if you want them stacked vertically */
+    gap: 20px;
+    font-size: larger;
+    
+    
+    
+}
+
+.faqs1{
+    width: 100%;
+
+}
+
+#con-1{
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.accordion{
+    font-family: monospace;
+    width: 100%;
+    text-align: left;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    
+
+}
+
+.open span{
+    float: right;
+
+}
+
+.accordion span{
+    float: right;
+}
+
+.content-fa {
+    padding: 0 18px;
+    background-color: transparent;
+    display: none;
+    overflow: hidden;
+    
+}
+
+
+
+.accordion{
+    cursor: pointer;
+}
+
+
+
+.com-1{
+    margin-top: 8rem;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.com-1 h1{
+    color: white; 
+    font-family:monospace; 
+    font-size: 1.5rem;
+    
+}
+
+.newsletter-section{
+    text-align: left;
+}
+
+.newsletter-section h1{
+    margin-bottom: 40px;
+}
+
+.newsletter-section p {
+    margin-bottom: 20px;
+}
+
+.crf{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    flex: 2;
+}
+.email-0{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+#email-1 {
+    width: 50%;
+    margin-right:10px;
+    text-align: center;
+
+}
+
+
 
 #sub-btn{
     color: white;
     background-color: transparent;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-color: white;
     font-size: 20px;
     
 }
 
-footer{
-    color:aliceblue;
+
+.company h2, .resources h2, .follow-us h2{
+    margin-bottom: 20px;
+}
+
+.company a, .resources a, .follow-us a {
+    display: block; /* Makes each link occupy the full width of its container */
+    margin-bottom: 5px; /* Adds space between each link */
+    text-decoration: none; /* Removes the underline from links */
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+.fotter{
+    display: flex;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.fot-1 {
+    display: flex; /* Use flexbox for the link container */
+    gap: 15px; /* Adds space between links */
+}
+
+
+.fot-1 a{
+    
+    float: right;
+    color: white;
+    text-decoration: none;
+    
 }
